@@ -7,6 +7,10 @@ export default function Home() {
       <Link href={`/example`}>
         <a>框架使用 - 示例代码</a>
       </Link>
+      <br />
+      <Link href={`/micro-app`}>
+        <a>微前端 - Micro-APP</a>
+      </Link>
     </div>
   );
 }

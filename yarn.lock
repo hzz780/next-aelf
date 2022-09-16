@@ -784,6 +784,11 @@
   resolved "https://registry.yarnpkg.com/@metamask/safe-event-emitter/-/safe-event-emitter-2.0.0.tgz#af577b477c683fad17c619a78208cede06f9605c"
   integrity sha512-/kSXhY692qiV1MXu6EeOZvg5nECLclxNXcKCxJ3cXQgYuRymRHpdx/t7JXfsK+JLjwA1e1c1/SBrlQYpusC29Q==
 
+"@micro-zoe/micro-app@^0.8.10":
+  version "0.8.10"
+  resolved "https://registry.npmjs.org/@micro-zoe/micro-app/-/micro-app-0.8.10.tgz#33fc5e821289521d8339cb35aa47a20786e01aea"
+  integrity sha512-Zb1G5UrOAEHhiAlanzHJiBlRFHMd4+C/Q5jkwTM991R7blb1F6uGY47pmcunzHns48Kj6k9v2+CLsozGyhQmyw==
+
 "@next/bundle-analyzer@^12.2.4":
   version "12.2.4"
   resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-12.2.4.tgz#2e9c709ad6baf9cecd4f89d63646ab182ba8f1b4"
@@ -1512,17 +1517,6 @@ aelf-bridge@^0.0.10:
   version "0.0.10"
   resolved "https://registry.npmjs.org/aelf-bridge/-/aelf-bridge-0.0.10.tgz#8885a5f77c0639edd5ceb9f3fefcd2670af2588f"
   integrity sha512-jeTPsHnsCaGgzbjPYFhdk7rXIfk2LOyXsASV2tuEfqDnqVvy5RHiK+WT+wgmVu7DSmGkZdood2tVlCMv8zDwLw==
-  dependencies:
-    "@babel/runtime" "^7.6.3"
-    browserify-cipher "^1.0.1"
-    create-hmac "^1.1.7"
-    elliptic "^6.5.1"
-    socket.io-client "^2.3.0"
-    uuid "^3.3.3"
-
-"aelf-bridge@git+https://github.com/mason-hz/aelf-bridge":
-  version "0.0.10"
-  resolved "git+https://github.com/mason-hz/aelf-bridge#85a5f9b99502e3e5bdc3cde33567a20cb4fc8f87"
   dependencies:
     "@babel/runtime" "^7.6.3"
     browserify-cipher "^1.0.1"
